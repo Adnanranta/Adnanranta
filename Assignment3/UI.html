@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+   <link rel="stylesheet" href="./Style.css"/>
+   <script src="./app.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1> Recipe Application</h1>
+        <div class="search-form-container">
+            <input
+            id="SearchInput"
+            type="text" placeholder="Search for Recipes..."
+            />
+            <button id="searchBtn">Button</button>
+        </div>
+    </header>
+    <section id="RecipeResults">
+    <h2  class="search-results-heading"> Search Results</h2>
+    <div class="list-container">
+    <ul id="recipe-list"></ul>    
+</div>
+    </section>
+
+    <section id="RecipeDetails">
+
+        <h2> Recipe Details</h2>
+        <div id="RecipeDetailscontainer">
+            
+    </div>
+        </section>
+    <!-- GENRE
+    <br>
+    <p> UI:</p> -->
+    <table>
+  
+        <tr style="padding:0%;">
+            <td style="width:30%;">
+                <label>GENRE</label>
+                <br>
+                <select id="ddl_Genre"style="height:30px; width:300px;">
+                    <option value="Crime">Crime</option>
+                    <option value="Drama">Drama</option>
+                    <option value="History">History</option>
+                    <option value="Comedy">Comedy</option>
+                  </select>
+            </td>
+<td>
+    <label>YEAR</label>
+                <br>
+                <select id="ddl_year" name="enre" style="height:30px; width:300px;">
+                    <option value="Crime">Crime</option>
+                    <option value="Drama">Drama</option>
+                    <option value="History">History</option>
+                    <option value="Comedy">Comedy</option>
+                  </select>
+</td>
+<td>
+    <label>LANGUAGE</label>
+    <br>
+    <select id="ddl_LANGUAGE" name="enre1" style="height:30px; width:300px;">
+        <option value="Crime">Crime</option>
+        <option value="Drama">Drama</option>
+        <option value="History">History</option>
+        <option value="Comedy">Comedy</option>
+      </select>
+</td>
+        </tr>
+        <tr>
+            <td style="width:100px;">
+                <label>RATING</label>
+                <br>
+                <select id="ddl_LANGUAGE" name="enre2" style="width:100%; height:30px;">
+                   
+                  </select>
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
